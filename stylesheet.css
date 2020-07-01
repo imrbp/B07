@@ -14,7 +14,10 @@ a {
 
 .main {
 	background-color: black;
-	color: white;
+}
+
+.container {
+	width: 1170px;
 }
 
 .main h1{
