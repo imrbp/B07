@@ -3,6 +3,88 @@
 }
 
 
+/*Start of header*/
+
+body {
+  font-family: "ubuntu";
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  background: linear-gradient(#000046, #1F5B6B);
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  font-weight: bold;
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+  padding-bottom: 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.header-right {
+  float:right;
+}
+
+.header-right span {
+  
+    line-height: 50px;
+    /*padding-top: 8px;*/
+    /*padding-bottom: 12px;*/
+    padding-right: 40px;
+    color: white;
+    display: block;
+    background-color: #BA340B;
+}
+
+.btn {   
+    border-radius: 4px;
+
+}
+
+.message {
+  padding: 12px 24px;
+  /*background-color: #5dca88;*/
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  box-shadow :none;
+  position : relative;
+  top :7px;
+} 
+
+/*End of header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main {
 	background-color: black;
   color : white;
