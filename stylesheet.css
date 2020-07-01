@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+}
+
 body {
   font-family :"ubuntu";
   margin: 0;
@@ -72,3 +80,72 @@ header {
 
 
 /* end of header*/
+
+
+/*Start of main */
+
+.main {
+  background-color: black;
+  color : white;
+  text-align: center;
+}
+
+.leader {
+  display : inline-block;
+  border : 1px solid black;
+}
+
+.main img{
+  width : 30%;
+}
+
+.image-kakashi  {
+  display : inline-block;
+  float : right;
+}
+
+.image-kakashi img {
+  width :120%;
+  padding : 10px 10px;
+  float : right;
+}
+
+.text {
+  padding : 10px 10px;
+  float : left;
+  width : 50%;
+  letter-spacing : 2px;
+}
+
+.text h2 {
+  font-size : 32px;
+}
+
+.btns {
+  padding: 12px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color : green;
+  text-decoration: none;
+  color :white;
+}
+
+.btns a{
+  display : block;
+}
+
+.members {
+  text-align : center;
+  
+}
+
+.member {
+  border : 1px solid black;
+  width : 33%;
+  float ; left;
+  display : inline-block;
+}
+
+
+/*end of main */
