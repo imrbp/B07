@@ -16,6 +16,14 @@ a {
 	background-color: black;
 }
 
+.introduction h1{
+	text-align: center
+}
+
+
+.introduction p{
+	text-align: center
+}
 
 .clear {
   clear: left;
