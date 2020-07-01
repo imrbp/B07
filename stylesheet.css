@@ -15,12 +15,12 @@ li {
 
 header {
 	color: white;
+	background: linear-gradient(#000046, #1F5B6B);
+	color: #fff;
+	height: 90px;
 }
 
 .container {
-  background: linear-gradient(#000046, #1F5B6B);
-  color: #fff;
-  height: 90px;
 }
 
 .header-logo {
