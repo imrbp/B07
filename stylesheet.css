@@ -2,29 +2,41 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
-
-a {
-  text-decoration: none;
-}
-
 
 .main {
 	background-color: black;
+  color : white;
+  text-align: center;
 }
 
-.container {
-	width: 1170px;
+.main img{
+  width : 30%;
 }
 
-.main h1{
-	text-align: center
+.image-kakashi  {
+  display : inline-block;
 }
 
+.image-kakashi img {
+  width : 120%;
+}
 
-.main p{
-	text-align: center
+.text-kakashi {
+  padding : 10px 10px;
+  float : left;
+  width : 50%;
+  display : inline-block;
+}
+
+.btn {
+  padding: 12px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color : green;
+}
+
+.btn a{
+  color : white;
+  text-decoration: none;
 }
