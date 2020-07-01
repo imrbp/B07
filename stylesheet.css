@@ -13,6 +13,10 @@ li {
   list-style: none;
 }
 
+header {
+	color: white;
+}
+
 .container {
   background: linear-gradient(#000046, #1F5B6B);
   color: #fff;
