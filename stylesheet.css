@@ -81,6 +81,61 @@ header {
 
 /* end of header*/
 
+/*start of intro*/
+.intro {
+  background-image: url(Team7full1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+  margin-top: 90px;
+  padding: 250px;
+  text-align: center;
+  height: 100vh;
+  text-shadow: 2px 2px 5px black;
+}
+
+.intro h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+/*end of intro*/
+
+/*start of content*/
+
+.text-team {
+  border: 1px solid black;
+  border-radius:10px;
+  background-color: white;
+  padding: 15px;
+  float : left;
+  width : 60%;
+  letter-spacing : 2px;
+  margin: 200px 0;
+}
+
+.text-team h2 {
+  font-size : 32px;
+}
+
+/*end of content*/
+
+
+
+
+
 
 /*Start of main */
 
