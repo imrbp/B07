@@ -3,12 +3,12 @@
 }
 
 body {
-  
-}
-
-body {
   font-family :"ubuntu";
   margin: 0;
+}
+
+p {
+  font-weight: bolder;
 }
 
 li {
@@ -84,31 +84,27 @@ header {
 
 .main {
   background-color: black;
-  color : white;
-  text-align: center;
+  height: 90px;
 }
 
 .leader {
+  background-color: #73A936;
   display : inline-block;
   border : 1px solid black;
+  width: 100%;
+  padding: 40px 30px 30px 30px;
 }
 
-.main img{
-  width : 30%;
-}
 
-.image-kakashi  {
-  display : inline-block;
-  float : right;
-}
-
-.image-kakashi img {
-  width :120%;
+.image img {
+  width: 25%;
   padding : 10px 10px;
   float : right;
 }
 
 .text {
+  border-radius:10px;
+  background-color: white;
   padding : 10px 10px;
   float : left;
   width : 50%;
@@ -134,16 +130,43 @@ header {
 }
 
 .members {
+  border: 1px solid black;
   text-align : center;
-  
 }
 
 .member {
-  border : 1px solid black;
-  width : 33%;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+  width : 30%;
   float ; left;
   display : inline-block;
+  padding: 30px;
 }
 
+.member-image img{
+  width: 90%;
+}
+
+.member h2 {
+  font-size: 30px;
+}
+
+.member p{
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+
+.naruto {
+  background-color: #ff9933;
+}
+
+.sasuke {
+  background-color: #1B255C;
+}
+
+.sakura {
+  background-color: #B099A5;
+}
 
 /*end of main */
