@@ -84,15 +84,11 @@ header {
 
 /*Start of main */
 
-.main {
-  background-color: black;
-  height: 90px;
-}
 
 .leader {
+  padding: 90px 40px 40px 40px;
   display : inline-block;
-  width: 100%;
-  padding: 40px 30px 30px 30px;
+  display: inline-block;
 }
 
 
