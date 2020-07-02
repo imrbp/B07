@@ -5,6 +5,9 @@
 body {
   font-family :"ubuntu";
   margin: 0;
+  background-image: url(https://images.wikia.nocookie.net/__cb11/naruto/images/5/50/Wiki-background);
+  background-repeat: repeat;
+  background-color: 
 }
 
 p {
@@ -67,7 +70,7 @@ header {
   padding: 5px 10px;
   background-color: #5dca88;
   cursor: pointer;
-  box-shadow: 5px 5px #1a7940;
+  box-shadow: 0px 5px #1a7940;
 }
 
 .message:active {
@@ -88,9 +91,7 @@ header {
 }
 
 .leader {
-  background-color: #73A936;
   display : inline-block;
-  border : 1px solid black;
   width: 100%;
   padding: 40px 30px 30px 30px;
 }
@@ -99,16 +100,19 @@ header {
 .image img {
   width: 25%;
   padding : 10px 10px;
-  float : right;
+  float : left;
+  filter: drop-shadow(10px 10px 5px #73A936);
 }
 
 .text {
+  border: 1px solid black;
   border-radius:10px;
   background-color: white;
-  padding : 10px 10px;
+  padding: 15px;
   float : left;
-  width : 50%;
+  width : 60%;
   letter-spacing : 2px;
+  margin: 200px 0;
 }
 
 .text h2 {
@@ -118,26 +122,33 @@ header {
 .btns {
   padding: 12px 24px;
   display: inline-block;
-  opacity: 0.8;
   border-radius: 4px;
   background-color : green;
   text-decoration: none;
   color :white;
+  cursor: pointer;
+  box-shadow: 0px 5px black;
 }
 
 .btns a{
   display : block;
 }
 
+
+.btns:active {
+  box-shadow :none;
+  position : relative;
+  top :7px;
+} 
+
 .members {
-  border: 1px solid black;
   text-align : center;
+  padding: 20px;
 }
 
 .member {
   border-radius: 20px;
   color: white;
-  border: 1px solid black;
   width : 30%;
   float ; left;
   display : inline-block;
@@ -148,25 +159,34 @@ header {
   width: 90%;
 }
 
-.member h2 {
+.text-content {
+  color : black;
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 10px;
+  border : 2px solid black;
+}
+
+.text-content h2 {
   font-size: 30px;
 }
 
-.member p{
+.text-content p{
   letter-spacing: 1px;
   padding-bottom: 5px;
 }
 
-.naruto {
-  background-color: #ff9933;
+.naruto img{
+  filter: drop-shadow(10px 10px 5px #ff9933);
 }
 
-.sasuke {
-  background-color: #1B255C;
+.sasuke img{
+  filter: drop-shadow(10px 10px 5px #1B255C);
 }
 
-.sakura {
-  background-color: #B099A5;
+.sakura img{
+  filter: drop-shadow(10px 10px 5px #B099A5);
+
 }
 
 /*end of main */
