@@ -180,7 +180,7 @@ header {
 }
 
 .sasuke img{
-  filter: drop-shadow(10px 10px 5px #1B255C);
+  filter: drop-shadow(10px 10px  5px #1B255C);
 }
 
 .sakura img{
@@ -189,6 +189,7 @@ header {
 }
 
 /*end of main */
+
 
 /* Start of Footer */
 
@@ -224,3 +225,4 @@ header {
   font-size: 15px
 }
 
+/* End of Footer */
