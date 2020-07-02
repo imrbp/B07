@@ -1,0 +1,28 @@
+/* Layout for Tablet Devices */
+@media (max-width: 1000px) {
+
+  .header-list {
+   flex-wrap: wrap;
+  }
+
+  .header-list li {
+    width: 25%;
+  }
+  
+  .image img {
+  	margin-top: 200px;
+  }
+
+  .member {
+   flex-wrap: wrap;
+  }
+  .member {
+  	float:left;
+    width: 100%;
+  }
+  .member-image {
+  	width: 30%
+  }
+  .text-content {
+  }
+}
