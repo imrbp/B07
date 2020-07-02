@@ -1,0 +1,14 @@
+/* footer */
+
+.flex-list {
+  display: flex;
+  /* Set flex-wrap */
+  flex-wrap: wrap;
+  
+}
+.flex-list li {
+  flex: auto;
+  /* Set the width to 50% */
+  width: 50%;
+  
+}
