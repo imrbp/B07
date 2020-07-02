@@ -181,7 +181,7 @@ header {
 }
 
 .sasuke img{
-  filter: drop-shadow(10px 10px 5px #1B255C);
+  filter: drop-shadow(10px 10px  5px #1B255C);
 }
 
 .sakura img{
@@ -190,3 +190,42 @@ header {
 }
 
 /*end of main */
+
+
+
+/* Start of Footer */
+
+.footer {
+  background-color: black;
+  color: #fff;
+  height: 200px;
+  padding-top: 20px;
+}
+
+.top-footer img {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  margin-bottom: -20px
+}
+
+.footer img {
+  margin-left: 50px;
+  width: 20%;
+  height: auto;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-right: 50px;
+  padding-bottom: 20px;
+  font-size: 15px
+}
+
+
+/* End of Footer */
