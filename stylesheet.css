@@ -51,6 +51,9 @@ header {
 
 .header-right {
   float : right ;
+  padding: 12px;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .header-right span {
@@ -133,6 +136,10 @@ header {
 }
 
 /*end of content*/
+
+
+
+
 
 
 /*Start of main */
