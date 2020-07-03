@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family :"ubuntu";
   margin: 0;
@@ -12,10 +16,6 @@ body {
 
 p {
   font-weight: bolder;
-}
-
-li {
-  list-style: none;
 }
 
 .container {
@@ -41,7 +41,7 @@ header {
   color : white;
 }
 
-.header-list li {
+.header-list a{
   font-weight : bold;
   font-size : 15px;
   float: left;
@@ -77,6 +77,15 @@ header {
   position : relative;
   top :7px;
 } 
+
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
 
 
 /* end of header*/

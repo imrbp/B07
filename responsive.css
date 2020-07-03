@@ -29,20 +29,27 @@
 
 /* Layout for Phone Devices */
 @media all and (max-width: 670px) {
+  h1 {
+    font-size :20px;
+  }
+
+
   .header-list {
     display: none;
   }
 
-  ul {
+  .menu-icon {
     display: block;
   }
 
   .text h2 {
     font-size: 20px;
+    line-height: 30px;
   }
 
   .text p {
     font-size: 16px;
+    line-height: 20px;
   }
 
 }
