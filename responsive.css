@@ -79,12 +79,30 @@
 }
 
 /* Layout for Phone Devices */
-@media all and (max-width: 670px) {
-  h1 {
-    font-size :20px;
+@media(max-width: 670px) {
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 10px;
   }
 
 
+  .intro h1 {
+    padding-top: 20px;
+    font-size :20px;
+  }
+
+  .intro {
+    padding: 100px 0px;
+  }
+
+
+  .btns{
+    padding: 9px 10px;
+    font-size: 8px;
+  }
   .header-list {
     display: none;
   }
@@ -93,14 +111,27 @@
     display: block;
   }
 
-  .text h2 {
-    font-size: 20px;
-    line-height: 30px;
+
+  .leader {
+    letter-spacing: normal;
+    padding : 20px;
   }
 
-  .text p {
+  .leader h2{
     font-size: 16px;
-    line-height: 20px;
+  }
+
+  .leader p{
+    font-size: 10px;
+  }
+
+  .text {
+    letter-spacing: 0px;
+  }
+
+  .members {
+    padding : 0px;
+    text-align: left;
   }
 
 }
